@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Curriculum</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-left">
+                    <h1 class="header-title">Mi nombre completo</h1>
+                    <h2 class="header-subtitle">Mi título o profesión</h2>
+                </div>
+                <div class="header-right">
+                    <ul class="header-nav">
+                        <li class="header-nav-item"><a href="#perfil">Perfil</a></li>
+                        <li class="header-nav-item"><a href="#experiencia">Experiencia</a></li>
+                        <li class="header-nav-item"><a href="#educacion">Educación</a></li>
+                        <li class="header-nav-item"><a href="#habilidades">Habilidades</a></li>
+                        <li class="header-nav-item"><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="section section-perfil" id="perfil">
+                <h2 class="section-title">Perfil</h2>
+                <div class="section-content">
+                    <p>Descripción breve de tus habilidades y experiencia profesional</p>
+                </div>
+            </section>
+
+            <section class="section section-experiencia" id="experiencia">
+                <h2 class="section-title">Experiencia Profesional</h2>
+                <div class="section-content">
+                    <ul class="timeline">
+                        <li class="timeline-item">
+                            <div class="timeline-date">Fecha de inicio - Fecha de finalización</div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Nombre del trabajo</h3>
+                                <p>Descripción de las tareas y responsabilidades</p>
+                            </div>
+                        </li>
+                        <!-- Agrega más elementos li para cada trabajo -->
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section section-educacion" id="educacion">
+                <h2 class="section-title">Educación</h2>
+                <div class="section-content">
+                    <ul class="timeline">
+                        <li class="timeline-item">
+                            <div class="timeline-date">Fecha de inicio - Fecha de finalización</div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Nombre de la institución</h3>
+                                <p>Titulo obtenido</p>
+                            </div>
+                        </li>
+                        <!-- Agrega más elementos li para cada institución de educación -->
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section section-habilidades" id="hab
